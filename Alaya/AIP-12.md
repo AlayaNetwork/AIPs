@@ -1,5 +1,5 @@
 ---
-PIP:  12
+AIP:  12
 Topic: Alaya网络优化升级提案
 Author: alliswell
 Status: Draft 
@@ -8,7 +8,7 @@ Description: 关于节点分成比例的bug修复以及一些其他的优化
 Created: 2020-11-26
 ---
 
-# PIP-12：Alaya版本升级-0.14.0
+# AIP-12：Alaya版本升级-0.14.0
 
 ## 目的
 
@@ -43,7 +43,7 @@ Created: 2020-11-26
 
 ## 优化功能
 
-- keytool工具名改为platonkey或alayakey
+- keytool工具名改为alayakey
 
 ## bug修复
 
@@ -83,7 +83,7 @@ Created: 2020-11-26
 - 修改方案：
   1. 对每个释放周期的释放金额做限制，比如不能少于Mlat/atp
 
-  2. M值支持治理，初始值为PlatON：500 lat [500, 10000000] / Alaya：80 atp [80, 100000] 
+  2. M值支持治理，初始值为80 atp [80, 100000] 
 
 - 周边影响：
   1. 锁仓工具限制单释放周期的锁定金额最小值

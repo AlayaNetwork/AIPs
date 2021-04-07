@@ -1,5 +1,5 @@
 ---
-PIP:  11
+AIP:  11
 Topic: 零出块惩罚规则优化
 Author: luowei
 Status: Final
@@ -9,7 +9,7 @@ Created: 2020-07-16
 
 ---
 
-# PIP-11：零出块惩罚规则优化
+# AIP-11：零出块惩罚规则优化
 
 ## 背景
 

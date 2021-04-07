@@ -1,5 +1,5 @@
 ---
-PIP: 15
+AIP: 15
 Topic: PlatON主网上线提案
 Author: AvaLuo
 Status: Final 
@@ -8,7 +8,7 @@ Description: PlatON主网上线提案
 Created: 2021-03-03
 ---
 
-# PIP-15：PlatON主网上线提案
+# AIP-15：PlatON主网上线提案
 
 ## Abstract
 
