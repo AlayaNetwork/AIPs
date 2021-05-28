@@ -1,28 +1,28 @@
 ---
-PIP:  9
-Topic: 关于对PlatON地址格式变更的提议
+AIP:  9
+Topic: 关于对Alaya地址格式变更的提议
 Author: alliswell
 Status: Draft 
 Type: Requirement
 Discussions-to: https://forum.latticex.foundation/t/topic/2529
-Description: 提议PlatON地址格式支持bech32编码规范
+Description: 提议Alaya地址格式支持bech32编码规范
 Created: 2020-05-19
 ---
 
-# PIP-9：提议PlatON地址支持bech32编码
+# AIP-9：提议Alaya地址支持bech32编码
 
 ## 背景
 
-PlatON底层最初基于ETH开发，地址格式沿用了ETH的hex+EIP55规范，这种地址格式不能直观的判断具体是属于ETH还是PlatON的地址，不利于用户区分和使用。
+Alaya底层最初基于ETH开发，地址格式沿用了ETH的hex+EIP55规范，这种地址格式不能直观的判断具体是属于ETH还是Alaya的地址，不利于用户区分和使用。
 
 ## 目的
 
-为了能让用户能直观的判断PlatON地址，提议PlatON支持带固定前缀的bech32地址编码规范。
+为了能让用户能直观的判断Alaya地址，提议Alaya支持带固定前缀的bech32地址编码规范。
 
 ## 内容
 
 ### 对外地址修改
-PlatON底层使用byte的形式存储地址，当地址需要显示给用户时，当前的规则是将地址转成16进制字符串，然后采用EIP55的标准对所得字符串中的部分字母转大写，得到最终地址字符串，例如:
+Alaya底层使用byte的形式存储地址，当地址需要显示给用户时，当前的规则是将地址转成16进制字符串，然后采用EIP55的标准对所得字符串中的部分字母转大写，得到最终地址字符串，例如:
  0x7cB0f5D66D07472A835C97e288931BE2518f7b21
 这种字符串虽然可以通过计算机校验（是否符合EIP55规范），但对用户来说辨识度不高。
 

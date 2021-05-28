@@ -1,5 +1,5 @@
 ---
-PIP:  XXX
+AIP:  XXX
 Topic: XXX
 Author: 
 Status: Draft/Final/Accepted/Rejected/
@@ -9,7 +9,7 @@ Created: 2019-11-18
 
 ---
 
-# PIP-X：Example Title
+# AIP-X：Example Title
 
 ## Abstract
 

@@ -1,5 +1,5 @@
 ---
-PIP:  6
+AIP:  6
 Topic: 提议支持共识节点的出块顺序随机化
 Author: luowei
 Status: Final 
@@ -9,7 +9,7 @@ Description: 共识节点的出块顺序随机化
 Created: 2020-04-14
 ---
 
-# PIP-6：节点出块顺序优化-引入VRF随机性因子
+# AIP-6：节点出块顺序优化-引入VRF随机性因子
 
 ## 背景
 

@@ -1,5 +1,5 @@
 ---
-PIP:  XXX
+AIP:  XXX
 Topic: XXX
 Author: 
 Status: Draft/Final/Accepted/Rejected/Vote/Pass/Fail
@@ -9,7 +9,7 @@ Created: 2019-11-18
 
 ---
 
-# PIP-X：Example Title
+# AIP-X：Example Title
 
 ## Parametric Significance
 
@@ -28,6 +28,6 @@ Motivaltion for making this change.
 
 ## References
 
-This is a section for references such as links to other documents ( PIP)
+This is a section for references such as links to other documents ( AIP)
 or community discussion links.
 

@@ -1,2 +1,2 @@
-# PIPs
-Repository of PIP
+# AIPs
+Repository of Alaya Improvement Proposals
