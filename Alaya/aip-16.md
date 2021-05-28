@@ -32,7 +32,7 @@ Created: 2021-05-28
 
 #### 1.接口格式兼容
 Alaya目前的地址编码格式为bech32，以太坊目前的地址编码格式为EIP55，因此我们要在地址格式上做兼容。
-Alaya部分RPC接口的命名空间为'Alaya'，如’Alaya_getBalance’。以太坊部分RPC接口的命名空间为'eth'，如‘eth_getBalance’。两个函数的功能一致，因此我们要在命名空间上兼容。
+Alaya部分RPC接口的命名空间为'platon'，如’platon_getBalance’。以太坊部分RPC接口的命名空间为'eth'，如‘eth_getBalance’。两个函数的功能一致，因此我们要在命名空间上兼容。
 
 为此，我们通过版本号来区分不同格式的接口调用，其中1.0为Alaya的RPC接口，2.0为以太坊的RPC接口。
 
