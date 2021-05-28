@@ -1,5 +1,5 @@
 ---
-AIP: 17
+AIP: 16
 Topic: 兼容以太坊
 Author: clearly
 Status: Draft 
@@ -8,7 +8,7 @@ Description: 底层全面兼容以太坊的生态
 Created: 2021-05-28
 ---
 
-# AIP-17：关于全面兼容以太坊
+# AIP-16：关于全面兼容以太坊
 
 ## 摘要
 为吸引更多开发者参与Alaya网络中来，降低开发者将Dapp应用从以太坊迁移到Alaya上的开发成本，Alaya应该在如SDK、EVM、RPC接口、solidity语言等方面兼容以太坊。
@@ -96,19 +96,6 @@ curl -X POST --data '{"jsonrpc":"2.0", "method": "eth_getStorageAt", "params": [
 编译器兼容以太坊主要体现在solidity合约中的地址格式，当前Alaya的合约编译器只支持bech32个，为实现对以太坊合约的兼容，只需在每个solidity大版本的最新版(0.4.26，0.5.17，0.6.12，0.7.6和0.8.4）实现对EIP55地址格式的兼容即可。
 
 对于Token单位来说，为提示用户或开发者当前是在Alaya网络中使用合约，因此不建议对以太坊Token单位 `ether/wei` 实现兼容。
-
-## 待确认
-
-- 对于钱包格式， 是否需要兼容以太坊？ 
-
-  兼容的话用户如何区分两个不同网络的钱包呢？ 如果不兼容，应用移植可能也不方便，可以开发一个格式转换工具。
-
-- 是否要继续保留bech32格式？
-
-  如果后续两种地址格式可以混用，那么bech32存在的意义在哪？
-
-欢迎讨论
-
 
 ## 说明
 本次升级将兼容历史数据，需链上治理升级。详见讨论[链接](https://forum.latticex.foundation/t/topic/4636)
