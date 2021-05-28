@@ -3,7 +3,7 @@ AIP: 16
 Topic: 兼容以太坊
 Author: clearly
 Status: Draft 
-Type: Upgrade
+Type: Text
 Description: 底层全面兼容以太坊的生态
 Created: 2021-05-28
 ---
