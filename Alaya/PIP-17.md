@@ -20,6 +20,8 @@ Created: 2021-05-28
 
 ## 优化功能
 
+- 节点进程名由原来的 `platon` 修改为 `alaya`，启动命令中不再需要指定参数 `--alaya` 
+
 - 优化交易传播策略，对于不直接广播交易的节点，发送交易hash值[#1780](https://github.com/PlatONnetwork/PlatON-Go/issues/1780)
 
 - 支持RPC返回chainid的特性（参考EIP-695）
@@ -46,6 +48,7 @@ Created: 2021-05-28
 - 修复节点选举随机性问题[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)
 - 修复节点fast同步失败后出现 `BAD BLOCK` 的问题[issue-1783](https://github.com/PlatONnetwork/PlatON-Go/issues/1783)
 - 修复WASM跨合约调用时 `platon_caller` 值错误问题[issue-1779](https://github.com/PlatONnetwork/PlatON-Go/issues/1779)
+- 修复因委托收益不能领取的bug[issue-1583](https://github.com/PlatONnetwork/PlatON-Go/issues/1583)导致的账目错误问题
 
 ## 说明
 
