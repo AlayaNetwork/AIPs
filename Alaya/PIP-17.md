@@ -44,10 +44,12 @@ Created: 2021-05-28
 - 修复call调用偶现返回-32000错误码问题[#1769](https://github.com/PlatONnetwork/PlatON-Go/issues/1769)
 - 修复创世块extra字段判断逻辑错误问题[#1757](https://github.com/PlatONnetwork/PlatON-Go/issues/1757)
 - 修复节点选举随机性问题[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)
+- 修复节点fast同步失败后出现 `BAD BLOCK` 的问题[issue-1783](https://github.com/PlatONnetwork/PlatON-Go/issues/1783)
+- 修复WASM跨合约调用时 `platon_caller` 值错误问题[issue-1779](https://github.com/PlatONnetwork/PlatON-Go/issues/1779)
 
 ## 说明
 
-  本次升级将兼容历史数据，需要链上治理升级。详见讨论[链接]()
+  本次升级将兼容历史数据，需要链上治理升级。详见讨论[链接](https://forum.latticex.foundation/t/topic/5070)
 
 ## 版本信息
 
