@@ -1,5 +1,5 @@
 ---
-PIP: 17
+AIP: 17
 Topic: Alaya网络优化升级提案
 Author: alliswell
 Status: Draft
@@ -8,7 +8,7 @@ Description: Alaya网络优化升级，修复已知问题
 Created: 2021-05-28
 ---
 
-# PIP-17：Alaya网络优化升级提案
+# AIP-17：Alaya网络优化升级提案
 
 ## 目的
 
