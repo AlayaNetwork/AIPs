@@ -28,7 +28,7 @@ Created: 2021-05-28
 
 - alayakey工具优化，genblskeypair命令输出BlsProof
 
-- 根据社区提议对Alaya网络随机性选举节点出块，累积二项分布函数期望值调整为30，[讨论](https://forum.latticex.foundation/t/topic/4119)
+- 根据社区提议对Alaya网络随机性选举节点出块，累积二项分布函数期望值做出调整，具体请参考[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)，[讨论](https://forum.latticex.foundation/t/topic/4119)
 
 - 支持在创建网络时指定当前网络地址前缀`hrp`
 
@@ -45,7 +45,6 @@ Created: 2021-05-28
 - 修复预估gas接口时，对于治理合约的预估，必须要传入gasPrice的问题[#1758](https://github.com/PlatONnetwork/PlatON-Go/issues/1758)
 - 修复call调用偶现返回-32000错误码问题[#1769](https://github.com/PlatONnetwork/PlatON-Go/issues/1769)
 - 修复创世块extra字段判断逻辑错误问题[#1757](https://github.com/PlatONnetwork/PlatON-Go/issues/1757)
-- 修复节点选举随机性问题[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)
 - 修复节点fast同步失败后出现 `BAD BLOCK` 的问题[issue-1783](https://github.com/PlatONnetwork/PlatON-Go/issues/1783)
 - 修复WASM跨合约调用时 `platon_caller` 值错误问题[issue-1779](https://github.com/PlatONnetwork/PlatON-Go/issues/1779)
 - 修复因委托收益不能领取的bug[issue-1583](https://github.com/PlatONnetwork/PlatON-Go/issues/1583)导致的账目错误问题
