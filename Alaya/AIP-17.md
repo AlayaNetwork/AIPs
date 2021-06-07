@@ -30,6 +30,7 @@ Created: 2021-05-28
 
 - 根据社区提议对Alaya网络随机性选举节点出块，累积二项分布函数期望值做出调整，具体请参考[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)，[讨论](https://forum.latticex.foundation/t/topic/4119)
 
+- 节点最大连接数MaxPeers的默认值的优化[issue-1791](https://github.com/PlatONnetwork/PlatON-Go/issues/1791)
 - 支持在创建网络时指定当前网络地址前缀`hrp`
 
    1. 支持在创世区块中指定hrp，hrp需符合bech32规范
