@@ -48,6 +48,7 @@ Created: 2021-05-28
 - 修复节点fast同步失败后出现 `BAD BLOCK` 的问题[issue-1783](https://github.com/PlatONnetwork/PlatON-Go/issues/1783)
 - 修复WASM跨合约调用时 `platon_caller` 值错误问题[issue-1779](https://github.com/PlatONnetwork/PlatON-Go/issues/1779)
 - 修复因委托收益不能领取的bug[issue-1583](https://github.com/PlatONnetwork/PlatON-Go/issues/1583)导致的账目错误问题
+- 修复调用 `platon_block_hash` 时WASM内存溢出问题[issue-1724](https://github.com/PlatONnetwork/PlatON-Go/pull/1724)
 - 同步修复以太坊txpool批量插入交易返回值错乱问题[ETH-21683](https://github.com/ethereum/go-ethereum/pull/21683)
 
 ## 说明
