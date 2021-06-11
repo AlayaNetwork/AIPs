@@ -28,7 +28,9 @@ Created: 2021-05-28
 
 - alayakey工具优化，genblskeypair命令输出BlsProof
 
-- 根据社区提议对Alaya网络随机性选举节点出块，累积二项分布函数期望值做出调整，具体请参考[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)，[讨论](https://forum.latticex.foundation/t/topic/4119)
+- 根据社区提议对Alaya网络随机性选举节点出块，累积二项分布函数期望值由3000调整为25，候选节点增加洗牌以增加随机性，具体请参考[issue-1785](https://github.com/PlatONnetwork/PlatON-Go/issues/1785)，[讨论](https://forum.latticex.foundation/t/topic/4119)
+
+- code review优化内容实施[issue-22](https://github.com/AlayaNetwork/Alaya-Go/issues/22)
 
 - 支持在创建网络时指定当前网络地址前缀`hrp`
 
