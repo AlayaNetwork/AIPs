@@ -1,5 +1,5 @@
 ---
-pip: 1
+AIP: 1
 topic: AIP Purpose and Guidelines
 status: Active
 type: Meta

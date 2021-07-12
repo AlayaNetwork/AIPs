@@ -1,5 +1,5 @@
 ---
-pip: 13
+AIP: 13
 title: 隐私代币合约标准
 author:
 status: Draft
