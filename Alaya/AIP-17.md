@@ -2,7 +2,7 @@
 AIP: 17
 Topic: Alaya网络优化升级提案
 Author: alliswell
-Status: Draft
+Status: Final
 Type: Text
 Description: Alaya网络优化升级，修复已知问题
 Created: 2021-05-28
@@ -60,5 +60,5 @@ Created: 2021-05-28
 
 本次升级的版本号为：0.16.0
 
-Commit-ID: 待定
+Commit-ID: c1221a425d6b6b0c916c2eecbf1f74ab5224291c
 
