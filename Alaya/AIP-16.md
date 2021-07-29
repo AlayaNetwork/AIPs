@@ -54,10 +54,9 @@ Created: 2021-05-28
 对于来自以太坊的调用的响应对象，地址的编解码格式为EIP55。对于来自alaya的调用的响应对象，地址的编解码格式为bech32。示例:
 ```
  // Alaya调用
-{"jsonrpc":"2.0","id":1,"result":["0x407d73d8a49eeb85d32cf465507dd71d507100c1"]}
-// 以太坊调用
-{"jsonrpc":"2.0","id":1,"result":["atp1zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqp8h9fxw"]}
-
+ {"jsonrpc":"2.0","id":1,"result":["atp1zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqp8h9fxw"]}
+ // 以太坊调用
+ {"jsonrpc":"2.0","id":1,"result":["0x407d73d8a49eeb85d32cf465507dd71d507100c1"]}
 ```
 
 #### 2.需要新增或修改的接口
